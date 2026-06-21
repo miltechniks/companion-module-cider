@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "cider",
+	"name": "Cider",
+	"shortname": "cider",
+	"description": "Control the Cider Apple Music client via API",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/miltechniks/companion-module-cider.git",
+	"bugs": "https://github.com/miltechniks/companion-module-cider/issues",
+	"maintainers": [
+		{
+			"name": "Lukas Mittermeier",
+			"email": "companion@lmsound.de"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Cider",
+	"products": ["Cider"],
+	"keywords": ["audio", "music", "playback", "apple music"]
+}
